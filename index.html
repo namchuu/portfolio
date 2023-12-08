@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Namjoo's Portfolio</title>
+
+	<link rel="stylesheet" href="css/index.css">
+	<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+
+	<!--영문폰트-->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+
+	<!--portfolio글자-->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="wrap">
+	<header>
+		<div id="main">
+			<h1>Welcome to my Portfolio<br>
+			How was your day?</h1>
+			
+			<h2><button><img src="images/ham.png" alt="메뉴"></button></h2>
+			<nav id="right-slidebar">
+				<ul>
+					<li id="menu1"><a href="#">Welcome</a></li>
+					<li id="menu2"><a href="#">Keyword</a></li>
+					<li id="menu3"><a href="#">Portfolio</a></li>
+					<li id="menu4"><a href="#">Work of Art</a></li>
+					<li id="menu5"><a href="#">Contact me</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="keyword" data-scroll>
+		<div class="inner">
+			<div id="kl">
+				<h2>#KEYWORD</h2>
+				<h3><img src="images/profile.png" alt="프로필사진"></h3>
+				<ul>
+					<li>백남주 ENFJ</li>
+					<li>컴퓨터그래픽스운용기능사</li>
+				</ul>
+				<ul id="logo">
+					<li><img src="images/html.png" alt="html로고"></li>
+					<li><img src="images/css.png" alt="css로고"></li>
+					<li><img src="images/js.png" alt="javascript로고"></li>
+					<li><img src="images/jquery.png" alt="jquery로고"></li>
+					<li><img src="images/sass.png" alt="sass로고"></li>
+					<li><img src="images/photo.png" alt="photoshop로고"></li>
+					<li><img src="images/illust.png" alt="illustrator로고"></li>
+					<li><img src="images/figma.png" alt="figma로고"></li>
+				</ul>
+			</div>
+			<div id="kr">
+				<div class="container_inner">
+					<section>
+						<h3><span>new</span></h3>
+						<p>새로움을 추구하고 좋아해요!<br>
+							재밌고 효율적인 코딩을 위해<br>
+						 	자기계발에 진심을 다합니다.</p>
+					</section>
+					<section class="container_bg">
+						<h3><span>faithful</span></h3>
+						<p>성실함이 무엇보다 중요해요!<br>
+							정해진 기간 내 업무를 완수해낼 수 있는<br>
+							계획성과 책임감을 갖췄습니다.</p>
+					</section>
+				</div>
+				<div class="container_inner">
+					<section class="container_bg">
+						<h3><span>passionate</span></h3>
+						<p>나의 일을 사랑하고 열정을 쏟아요!<br>
+							웹표준·접근성을 준수하며<br>
+							animation을 이용한 동적 구현에<br>열정과 재미를 느낍니다.</p>
+					</section>
+					<section>
+						<h3><span>communicative</span></h3>
+						<p>소통과 협업이 능숙해요!<br>
+							팀원간 예의와 매너를 중요시하며<br>
+							즐겁게 일할 수 있는 능력을 갖췄습니다.
+						</p>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="portfolio" >
+		<h2 class="cloud" data-scroll>What's in my Portfolio</h2>
+		<div class="p_slide" data-scroll>
+			<section>
+				<h2>#PROJECT01</h2>
+				<h3>Claude Mone | 클로드 모네</h3>
+				<p>· Sass(SCSS)를 사용하여 스타일 관리의 용이함과 효율적인 CSS 작성<br>
+					· animation에 초점을 두어 다양한 시각적 경험을 생동감 있게 표현한 창작페이지
+				</p>
+				<ul>
+					<li><span>TYPE</span>Responsive Web</li>
+					<li><span>TOOL</span>Figma, Html, Css, Sass(SCSS), JS</li>
+					<li><span>참여도</span>100% (개인작업)</li>
+				</ul>
+				<p class="btn_web"><a href="http://namjoo.dothome.co.kr/work/mone">WEBSITE 방문하기</a></p>
+			</section>
+
+			<p><img src="images/mock_mone.png" alt="claud mone 반응형버전 화면"></p>
+		</div>
+		<div class="p_slide" data-scroll>
+			<section>
+				<h2>#PROJECT02</h2>
+				<h3>Groundseesaw | 그라운드시소</h3>
+				<p> · W3C 기준 웹표준·웹접근성을 준수하여 제작한 반응형 웹페이지<br>
+					· 브랜드의 메인컬러를 사용한 일관된 UI로 다양한 사용자의 쉬운 조작을 도움</p>
+				<ul>
+					<li><span>TYPE</span>Responsive Web</li>
+					<li><span>PAGE</span>10page(main + sub*9)</li>
+					<li><span>TOOL</span>Figma, Html, Css, Jquery, JS</li>
+					<li><span>참여도</span>100% (개인작업)</li>
+				</ul>
+				<p class="btn_web"><a href="http://namjoo.dothome.co.kr/work/seesaw">WEBSITE 방문하기</a></p>
+			</section>
+
+			<p><img src="images/mock_ground.png" alt="groundseesaw 반응형버전 화면"></p>
+		</div>
+
+		<div class="p_slide" data-scroll>
+			<section>
+				<h2>#PROJECT03</h2>
+				<h3>iloom | 일룸</h3>
+				<p>· JS, CSS anmation 효과를 이용한 깔끔하고 동적인 표현에 집중하여 제작<br>
+					· 편안함과 모던함을 살려 기업의 이미지를 강조한 UI를 표현</p>
+				<ul>
+					<li><span>PAGE</span>10page(main + sub*9)</li>
+					<li><span>TOOL</span>Figma, Html, Css, Jquery, JS</li>
+					<li><span>참여도</span>100% (개인작업)</li>
+				</ul>
+				<p class="btn_web"><a href="http://namjoo.dothome.co.kr/work/iloom">WEBSITE 방문하기</a></p>
+			</section>
+			
+			<p><img src="images/mock_iloom.png" alt="그라운드시소 pc,pad버전 화면"></p>
+		</div>
+	</div>
+	<div id="work">
+		<h2 class="cloud">Work of Art</h2>
+		<div id="w_slide">
+			<ul class="af">
+				<li><img src="images/work/work1.png" alt="귀농격려 포스터"></li>
+				<li><img src="images/work/work2.png" alt="여름수채화포스터"></li>
+				<li><img src="images/work/work3.png" alt="컨버스네온사인컨셉포스터"></li>
+				<li><img src="images/work/work4.png" alt="짱구는못말려주택 아이소매트릭"></li>
+				<li><img src="images/work/work5.png" alt="빨간모자 종이질감이미지"></li>
+				<li><img src="images/work/work6.png" alt="오드리햅번포스터"></li>
+				<li><img src="images/work/work7.gif" alt="생일축하카드"></li>
+				<li><img src="images/work/work8.png" alt="반고흐전시포스터"></li>
+				<li><img src="images/work/work9.png" alt="아리아나그란데 폴리건아트 포스터"></li>
+			</ul>
+			<ul class="ab">
+				<li><img src="images/work/work1.png" alt="귀농격려 포스터"></li>
+				<li><img src="images/work/work2.png" alt="여름수채화포스터"></li>
+				<li><img src="images/work/work3.png" alt="컨버스네온사인컨셉포스터"></li>
+				<li><img src="images/work/work4.png" alt="짱구는못말려주택 아이소매트릭"></li>
+				<li><img src="images/work/work5.png" alt="빨간모자 종이질감이미지"></li>
+				<li><img src="images/work/work6.png" alt="오드리햅번포스터"></li>
+				<li><img src="images/work/work7.gif" alt="생일축하카드"></li>
+				<li><img src="images/work/work8.png" alt="반고흐전시포스터"></li>
+				<li><img src="images/work/work9.png" alt="아리아나그란데 폴리건아트 포스터"></li>
+			</ul>
+		</div>
+	</div>
+	<div id="end">
+		<section>
+			<h2>Thank you for your watching :)</h2>
+			<p>저의 성실함과 열정을 <br>좋은 사람들과 함께 나누고 싶어요!</p>
+			<p><img src="images/mail.png" alt="이메일 아이콘"></p>
+			<p>E-MAIL : bnj8574@daum.net<br>contact me!</p>
+		</section>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
